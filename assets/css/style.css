@@ -1,0 +1,329 @@
+/*
+ * Palm Beach Agency Berlin
+ * www.palmbeach.agency
+ * hello@palmbeach.agency
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
+
+* {
+	margin: 0;
+	padding: 0px;
+  font-family: 'Lato', sans-serif;
+}
+body {
+	background: #fff;
+	margin: 0;
+	color: #5a5a5a;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+p {
+	padding: 0;
+	margin-bottom: 12px;
+    font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 28px;
+	color: #8b8b8b;
+	margin-top: 10px;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+.alignleft { float: left; }
+.alignright { float: right; }
+.aligncenter {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	clear: both;
+}
+.centered {text-align: center}
+.mt {margin-top: 50px;}
+.mb {margin-bottom: 50px;}
+.mtb {margin-top: 50px; margin-bottom: 50px;}
+.mtb2 { margin-top: 100px; margin-bottom: 100px;}
+.ptb {padding-top: 80px; padding-bottom: 80px;}
+
+.clear {
+	clear: both;
+	display: block;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+	width:100%;
+}
+::-moz-selection  {
+	color: #fff;
+	text-shadow:none;
+	background:#2B2E31;
+}
+::selection {
+	color: #fff;
+	text-shadow:none;
+	background:#2B2E31;
+}
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+a {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	-webkit-transition: background-color .4s linear, color .4s linear;
+	-moz-transition: background-color .4s linear, color .4s linear;
+	-o-transition: background-color .4s linear, color .4s linear;
+	-ms-transition: background-color .4s linear, color .4s linear;
+	transition: background-color .4s linear, color .4s linear;
+	color: #1abc9c;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  color:#02C4C2;
+}
+
+.membership-img img {
+  margin-top: -350px;
+}
+
+.coworking {
+	margin-right: 40px;
+	padding: 5px;
+}
+
+.reception {
+	height: 150px;
+  width: auto;
+	z-index: 1;
+}
+
+.desk {
+	height: 200px;
+  width: auto;
+	margin-right: 40px;
+	padding: 5px;
+}
+
+.space {
+	height: 100px;
+  width: auto;
+	margin-top: -20px
+}
+
+.navbar-inverse {
+	background: #0d0e10;
+	border-color: #0d0e10;
+}
+
+.navbar-right {
+	padding-top: 10px;
+}
+
+.navbar-brand {
+	margin-top: -5px;
+}
+
+.navbar-nav {
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #02C4C2;
+}
+
+.navbar {
+	padding-bottom: 2px;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+	color: #fff;
+	background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+	color: #02C4C2;
+}
+
+/* FORM CONFIGURATION */
+
+input {
+	font-size: 16px;
+	min-height: 40px;
+	border-radius: 2px;
+	line-height: 20px;
+	padding: 16px 30px 18px;
+	border: 1px solid #b9b9af;
+	margin-bottom: 10px;
+	background-color: #fff;
+	-webkit-transition: background-color 0.2s;
+	transition: background-color 0.2s;
+}
+
+.subscribe-input {
+	float: left;
+	width: 70%;
+	text-align: left;
+	margin-right: 2px;
+	border-radius: 0px;
+}
+
+.subscribe-submit {
+	right: 0;
+	padding: 15px 20px 17px;
+}
+
+/* General Configuration */
+h4 {
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 28px;
+	color: #a0a0a0;
+}
+
+h5 {
+	font-weight: 400;
+}
+
+i {
+	font-size: 50px;
+}
+
+#h {
+	background-color: #0d0e10;
+	padding: 100px;
+	padding-top: 200px;
+	text-align:center;
+	img-attachment: relative;
+	img-position: center center;
+	min-height: 600px;
+	width: 100%;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.effect img.image{
+	max-width: 800px;
+	img-attachment: relative;
+	img-position: center center;
+	margin-right: 0px
+}
+.effect:hover img.image{
+display:none;
+margin-right: 0px
+}
+.effect img.hover{
+display:none;
+margin-right: 0px
+}
+.effect:hover img.hover{
+display:block;
+margin-right: 0px
+}
+
+
+
+#membership {
+	background-image: url(../img/bedford_reception.jpg);
+	img-attachment: relative;
+	img-position: center center;
+	width: 100%;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.membership-graphic {
+	margin-top: -400px;
+}
+.membership h1, p {
+	color: white;
+}
+
+#rates {
+	background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#cta {
+	background-color: #0d0e10;
+	text-align:center;
+	min-height: 300px;
+	width: 100%;
+	margin-top: 50px;
+	color: white;
+}
+
+#cta h1 {
+	color: white;
+	font-size: 60px;
+	font-weight: 100;
+}
+
+.f {
+	padding: 50px;
+	background: #0d0e10;
+	color: white;
+}
+
+.ion-ios-checkmark-outline {
+	font-size: 35px;
+	text-align: center;
+	color: #02C4C2;
+}
+
+.btn-info {
+	background-color: #02C4C2;
+	border-radius: 0px;
+}
+
+
+
+
+
+/* OVERFLOW */
+
+.of {
+	overflow: hidden;
+}
